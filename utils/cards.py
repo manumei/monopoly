@@ -4,7 +4,7 @@ Handles card drawing and movement logic for special cards.
 """
 
 import random
-from board import RAILROAD_SPACES, UTILITY_SPACES, GO_SPACE, JAIL_SPACE
+from utils.board import RAILROAD_SPACES, UTILITY_SPACES, GO_SPACE, JAIL_SPACE
 
 
 class Card:

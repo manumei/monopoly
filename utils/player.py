@@ -4,7 +4,7 @@ Handles player state, dice rolling, movement, and jail mechanics.
 """
 
 import random
-from board import (
+from utils.board import (
     is_chance, is_community_chest, GO_TO_JAIL_SPACE, 
     JAIL_SPACE, GO_SPACE
 )

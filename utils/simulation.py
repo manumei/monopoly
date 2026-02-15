@@ -5,8 +5,8 @@ Runs multiple iterations to calculate long-term landing probabilities.
 
 import numpy as np
 from tqdm import tqdm
-from player import Player
-from cards import create_decks
+from utils.player import Player
+from utils.cards import create_decks
 
 
 class MonopolySimulation:
@@ -94,7 +94,7 @@ class MonopolySimulation:
         Returns:
             dict: Color group name -> total probability
         """
-        from board import COLOR_GROUPS
+        from utils.board import COLOR_GROUPS
         
         group_probabilities = {}
         for group_name, spaces in COLOR_GROUPS.items():
